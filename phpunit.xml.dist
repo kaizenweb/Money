@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit colors="true" bootstrap="tests/bootstrap.php">
+  <testsuites>
+    <testsuite name="Money">
+      <directory>tests/Money</directory>
+    </testsuite>
+    <testsuite name="Currency">
+      <directory>tests/Currency</directory>
+    </testsuite>
+    <testsuite name="Exchange">
+      <directory>tests/Exchange</directory>
+    </testsuite>
+    <testsuite name="Value Object: Currency">
+      <directory>tests/VoCurrency</directory>
+    </testsuite>
+  </testsuites>
+
+  <filter>
+    <whitelist>
+      <directory suffix=".php">src</directory>
+    </whitelist>
+  </filter>
+
+</phpunit>

@@ -1,0 +1,13 @@
+# PhpStorm
+/.idea
+
+# Composer
+/vendor
+/composer.lock
+
+# Build artifacts and temporary files
+/build/artifacts
+/build/tmp
+
+# PHPUnit
+.phpunit.result.cache
